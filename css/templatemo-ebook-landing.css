@@ -553,11 +553,12 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('https://www.reviewofoptometry.com/CMSImagesContent/2024/11/RO%20news/11132024%20IRD.jpg');
-  background-repeat: no-repeat;
+  /*background-image: url('https://www.reviewofoptometry.com/CMSImagesContent/2024/11/RO%20news/11132024%20IRD.jpg'); */
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
   position: relative;
+  background-color: #16817b ;
   padding-top: 50px;
 }
 
@@ -1051,3 +1052,7 @@ strong {
   }
 }
 
+.carousel-inner img {
+    height: 400px;
+    object-fit: scale-down;
+}
